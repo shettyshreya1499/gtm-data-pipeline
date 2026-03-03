@@ -1,6 +1,9 @@
-firm_name,city,size,practice_area,icp_score
-Smith & Associates,New York,mid-size,Corporate Law,100
-Pacific Law Partners,San Francisco,mid-size,IP Law,100
-Eastern Advocates,Boston,mid-size,Employment Law,80
-Johnson Legal Group,Chicago,mid-size,Litigation,70
-Texas Legal Solutions,Austin,small,Family Law,0
+firm_name,city,size,practice_area,website,icp_score,priority
+Smith & Associates,New York,mid-size,Corporate Law,smithlaw.com,100,High Priority
+Pacific Law Partners,San Francisco,mid-size,IP Law,pacificlaw.com,100,High Priority
+Midwest IP Group,Chicago,mid-size,IP Law,midwestip.com,100,High Priority
+Eastern Advocates,Boston,mid-size,Employment Law,easternadvocates.com,100,High Priority
+Capital Litigation Group,Washington DC,mid-size,Litigation,capitallitigation.com,70,Medium Priority
+Johnson Legal Group,Chicago,mid-size,Litigation,johnsonlegal.com,70,Medium Priority
+Harbor Business Law,Seattle,small,Corporate Law,harborlaw.com,30,Low Priority
+Texas Legal Solutions,Austin,small,Family Law,texaslegal.com,0,Low Priority

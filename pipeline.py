@@ -2,9 +2,12 @@ import pandas as pd
 import requests
 import time
 import sys
+from dotenv import load_dotenv
+import os
 
-# Your Hunter.io API key
-HUNTER_API_KEY = "48c0479609e00c94ff74956ab2f5a3db56a9aabe"
+# Load API key from .env file
+load_dotenv()
+HUNTER_API_KEY = os.getenv("HUNTER_API_KEY")
 
 # Step 1: Read from external CSV file with error handling
 print("Reading firms from CSV...")
